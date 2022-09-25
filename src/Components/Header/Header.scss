@@ -1,0 +1,33 @@
+.customNavbar{
+    background-color: white;
+    &.dark{
+        background-color: #191A1F;
+        color: gray;
+        .dropdown-menu{
+            background-color: #191A1F;
+        }
+    }
+    .navbar-nav{
+      &.dark{
+        .nav-item a{
+            color: gray;
+        }
+      }
+        .dropdown-menu{
+            border: none;
+            margin-top: 10px;
+            .dropdown-item{
+                margin-top: 10px;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+        .lifeStyle{
+            .dropdown-menu{  
+                padding: 30px 40px 30px 40px;       
+                margin-left: -775px;
+            }
+        }
+    }
+}

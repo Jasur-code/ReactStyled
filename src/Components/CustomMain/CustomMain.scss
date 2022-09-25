@@ -1,0 +1,36 @@
+.customCarousel {
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-inner {
+    border-radius: 10px !important;
+    .carouselItem {
+      .carousel-caption {
+        display: flex;
+        justify-content: space-between;
+
+        .carouselText {
+          width: 500px;
+          text-align: start;
+          margin-left: -130px;
+          margin-bottom: 170px;
+
+         h1{
+          a{
+            color: white;
+            text-decoration: none;
+            
+            &:hover{
+             border-bottom: 4px solid white;
+             transition: all 0.1s ;
+            }
+          } 
+         }
+        }
+      }
+    }
+  }
+}

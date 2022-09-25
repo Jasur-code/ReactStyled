@@ -1,0 +1,28 @@
+.section5{
+    &.dark{
+       
+            h2{
+                color: white;
+            }
+        h4{
+            color: white;
+        }
+    }
+    
+    .block{
+        display: flex;
+        justify-content: space-between;
+        .box_right{
+            width: 500px;
+    
+            .box_right_box{
+            .box_right_img{
+               img{
+                width: 200px; 
+                border-radius: 10px;
+            }
+            }
+            }
+        }
+    }
+}

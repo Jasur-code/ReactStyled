@@ -1,0 +1,58 @@
+footer{
+    width: 100%;
+    margin-top: 150px;
+    &.dark{
+        h4{
+            color: white;
+        }
+       li{
+        a{
+            color: gray;
+        }
+       }
+    }
+
+    .footerBlock{
+        display: flex;
+        gap: 60px;
+        .box_text{
+            width: 370px;
+            p{
+               color:#595D69;
+               font-weight: 600;
+            }
+        }
+
+        .box_links{
+            width: 220px;
+            
+           ul {
+            padding: 0;
+            margin-top: 15px;
+            li{ 
+                margin-top: 6px;
+                a{
+                    color: gray;
+                    &:hover{
+                        color: blue;
+                    }
+                }
+               }
+           }
+           
+        }
+
+        .box_btns{
+            width: 240px;
+            .btns{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+                button{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+}
